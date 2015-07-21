@@ -1,0 +1,23 @@
+{
+    "name": "nch7/laravel-repository-gateway-maker",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nick Chikovani",
+            "email": "nickeof@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Nch7\\LaravelRepositoryGatewayMaker\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
